@@ -13,7 +13,7 @@ server.use("/chores", choreRouter);
 
 
 server.get("/", (req, res) => {
-    res.status(200).json(peopledb);
+    res.status(200).json({ testObject: process.env.MY_TEST});
 });
 
 

@@ -21,3 +21,6 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 - [ ] What Express feature can we use to partition an application into sub-applications?
 
     - That would module.exports to make the sub-application available to other applications and the require feature to import the sub-application into the needed file.
+
+
+    Heroku deployment link: https://people-chores.herokuapp.com/
